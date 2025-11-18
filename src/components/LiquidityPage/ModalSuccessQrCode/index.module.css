@@ -1,0 +1,85 @@
+.iconiconarrowLeft2 {
+    width: 24px;
+    position: relative;
+    height: 24px;
+    display: none;
+}
+.title {
+    position: relative;
+    line-height: 28px;
+    font-weight: 600;
+}
+.titleicon {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 8px;
+}
+.iconcloseSmall {
+    width: 24px;
+    position: relative;
+    height: 24px;
+}
+.nav {
+    width: 342px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2px 0px;
+    box-sizing: border-box;
+    gap: 0px;
+}
+.ftribeioQrCodeIcon {
+    width: 219px;
+    position: relative;
+    border-radius: 8px;
+    height: 219px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.iconcopy {
+    width: 100%;
+    position: relative;
+    height: 24px;
+}
+.btn {
+    border-radius: 16px;
+    background-color: #3b3c4e;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+}
+.title1 {
+    position: relative;
+    line-height: 24px;
+    font-weight: 600;
+}
+.btnParent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 8px;
+    font-size: 14px;
+}
+.modalSuccess {
+    position: relative;
+    border-radius: 24px;
+    background-color: #23242f;
+    width: 28%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 24px 24px 32px;
+    box-sizing: border-box;
+    gap: 64px;
+    text-align: left;
+    font-size: 18px;
+    color: #fff;
+    font-family: Poppins;
+}

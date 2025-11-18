@@ -1,0 +1,315 @@
+.bg {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 24px;
+    background-color: #2c2d3a;
+    width: 451px;
+    height: 568px;
+}
+.text {
+    position: relative;
+    line-height: 24px;
+}
+.btn {
+    position: absolute;
+    top: 488px;
+    left: 24px;
+    border-radius: 16px;
+    background-color: #e33319;
+    width: 403px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.available500 {
+    position: relative;
+    text-decoration: underline;
+    line-height: 24px;
+}
+.title {
+    width: 403px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+.iconiconarrowDown {
+    position: absolute;
+    top: calc(50% - 12px);
+    right: 16px;
+    width: 24px;
+    height: 24px;
+}
+.label {
+    position: absolute;
+    top: calc(50% - 12px);
+    left: 48px;
+    line-height: 24px;
+    font-weight: 600;
+}
+.iconftr {
+    position: absolute;
+    top: calc(50% - 12px);
+    left: 16px;
+    border-radius: 100px;
+    width: 24px;
+    height: 24px;
+}
+.dropdown {
+    width: 159px;
+    position: relative;
+    border-radius: 16px 0px 0px 16px;
+    background-color: rgba(0, 0, 0, 0);
+    height: 56px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.text1 {
+    position: relative;
+    line-height: 28px;
+}
+.input {
+    width: 244px;
+    background-color: rgba(0, 0, 0, 0);
+    height: 56px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    padding: 16px;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-family: Rubik;
+}
+.inputGroupwDropdown {
+    width: 403px;
+    border-radius: 16px;
+    border: 1px solid #3b3c4e;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: left;
+}
+.pay {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 8px;
+}
+.iconplus3 {
+    position: absolute;
+    top: 104px;
+    left: 189.5px;
+    width: 24px;
+    height: 24px;
+}
+.iconbusd {
+    position: absolute;
+    top: calc(50% - 12px);
+    left: 16px;
+    width: 24px;
+    height: 24px;
+}
+.input1 {
+    width: 244px;
+    background-color: rgba(0, 0, 0, 0);
+    height: 56px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    padding: 16px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+.receive {
+    position: absolute;
+    top: 116px;
+    left: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 8px;
+}
+.form {
+    position: absolute;
+    top: 140px;
+    left: 24px;
+    width: 403px;
+    height: 204px;
+    font-size: 14px;
+}
+.tab {
+    position: relative;
+    line-height: 24px;
+    font-weight: 600;
+}
+.tabItemstyle2Itemlarge {
+    flex: 1;
+    border-radius: 16px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 16px;
+}
+.tabItemstyle2Itemlarge1 {
+    flex: 1;
+    border-radius: 16px;
+    background-color: #3b3c4e;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 16px;
+    color: #fff;
+}
+.tabsStyle2 {
+    position: absolute;
+    top: 68px;
+    left: 24px;
+    border-radius: 16px;
+    background-color: #3b3c4e;
+    width: 403px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: left;
+    color: #e33319;
+}
+.iconiconarrowLeft2 {
+    width: 24px;
+    position: relative;
+    height: 24px;
+}
+.iconshare {
+    width: 24px;
+    position: relative;
+    height: 24px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.titleicon {
+    position: absolute;
+    top: 24px;
+    left: 24px;
+    width: 403px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2px 0px;
+    box-sizing: border-box;
+    gap: 0px;
+}
+.mbListItemitemLeft {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+.iconiconarrowTop {
+    width: 100%;
+    position: relative;
+    height: 24px;
+}
+.iconWrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.mbListItemitemRight {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 8px;
+    text-align: right;
+}
+.mbListItemBasic {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+}
+.mbListItemBasic1 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+.title2 {
+    flex: 1;
+    position: relative;
+    line-height: 24px;
+    font-weight: 600;
+    white-space: pre-wrap;
+}
+.mbListItemBasic2 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 16px;
+    color: #fff;
+}
+.list {
+    width: 403px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 8px;
+}
+.content {
+    position: absolute;
+    top: 368px;
+    left: 24px;
+    width: 403px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 16px;
+    text-align: left;
+    font-size: 14px;
+    color: #8b8ca7;
+}
+.card {
+    position: absolute;
+    top: 128px;
+    left: 37px;
+    width: 451px;
+    height: 568px;
+}
+.right {
+    width: 38%;
+    position: relative;
+    background-color: #23242f;
+    height: 900px;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+    font-family: Poppins;
+}

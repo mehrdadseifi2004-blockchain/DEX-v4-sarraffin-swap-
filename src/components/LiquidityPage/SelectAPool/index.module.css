@@ -1,0 +1,260 @@
+.bg {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 24px;
+    background-color: #2c2d3a;
+    width: 451px;
+    height: 543px;
+}
+.bg1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 24px;
+    background-color: #353546;
+    width: 403px;
+    height: 368px;
+}
+.x75c2ff34 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    line-height: 24px;
+    font-weight: 600;
+}
+.iconcheckSelect {
+    position: absolute;
+    top: 0px;
+    left: 331px;
+    width: 24px;
+    height: 24px;
+}
+.title {
+    position: absolute;
+    top: 21px;
+    left: 24px;
+    width: 355px;
+    height: 24px;
+}
+.chartIcon {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 82px;
+    height: 82px;
+}
+.vectorIcon {
+    width: 100%;
+    position: relative;
+    height: 6px;
+}
+.iconcolorDot {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 9px;
+    box-sizing: border-box;
+}
+.iconWrapper {
+    width: 24px;
+    position: relative;
+    height: 24px;
+}
+.text {
+    position: relative;
+    line-height: 24px;
+}
+.texttext {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 8px;
+}
+.note {
+    position: absolute;
+    top: 9px;
+    left: 98px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 16px;
+}
+.chart {
+    position: absolute;
+    top: 69px;
+    left: 24px;
+    width: 333px;
+    height: 82px;
+}
+.dividerhorizontal {
+    position: absolute;
+    top: 175px;
+    left: 24px;
+    background-color: #3b3c4e;
+    width: 355px;
+    height: 1px;
+}
+.iconWrapper2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.mbListItemitemLeft {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 8px;
+}
+.iconiconarrowTop {
+    width: 100%;
+    position: relative;
+    height: 24px;
+}
+.mbListItemitemRight {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 8px;
+    text-align: right;
+}
+.mbListItemBasic {
+    width: 355px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+}
+.mbListItemitemLeft1 {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+.mbListItemBasic1 {
+    width: 355px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+.mbListItemitemRight1 {
+    width: 63px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    text-align: right;
+}
+.list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 8px;
+}
+.content {
+    position: absolute;
+    top: 192px;
+    left: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 16px;
+    color: #8b8ca7;
+}
+.cartLiquidity {
+    position: absolute;
+    top: 151px;
+    left: 24px;
+    width: 403px;
+    height: 368px;
+}
+.label {
+    position: absolute;
+    top: calc(50% - 12px);
+    left: 48px;
+    line-height: 24px;
+}
+.iconsearch {
+    position: absolute;
+    top: calc(50% - 12px);
+    left: 16px;
+    width: 24px;
+    height: 24px;
+}
+.input {
+    position: absolute;
+    top: 68px;
+    left: 24px;
+    border-radius: 16px;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid #3b3c4e;
+    box-sizing: border-box;
+    width: 403px;
+    height: 56px;
+    overflow: hidden;
+    color: #8b8ca7;
+}
+.title1 {
+    position: relative;
+    line-height: 28px;
+    font-weight: 600;
+}
+.titleicon {
+    position: absolute;
+    top: 24px;
+    left: 24px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 8px;
+    font-size: 18px;
+}
+.create {
+    text-decoration: underline;
+    font-weight: 600;
+    color: #e33319;
+}
+.pLink {
+    position: absolute;
+    top: 559px;
+    left: 24px;
+    line-height: 24px;
+    color: #8b8ca7;
+}
+.card {
+    position: absolute;
+    top: 128px;
+    left: 37px;
+    width: 451px;
+    height: 583px;
+}
+.right {
+    width: 38%;
+    position: relative;
+    background-color: #23242f;
+    height: 900px;
+    text-align: left;
+    font-size: 14px;
+    color: #fff;
+    font-family: Poppins;
+}

@@ -1,0 +1,142 @@
+.bg {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 24px;
+    background-color: #2c2d3a;
+    width: 451px;
+    height: 552px;
+}
+.iconiconarrowLeft2 {
+    width: 24px;
+    position: relative;
+    height: 24px;
+}
+.title {
+    position: relative;
+    line-height: 28px;
+    font-weight: 600;
+}
+.titleicon {
+    position: absolute;
+    top: 24px;
+    left: 24px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 8px;
+}
+.label {
+    position: absolute;
+    top: calc(50% - 12px);
+    left: 48px;
+    line-height: 24px;
+}
+.iconsearch {
+    position: absolute;
+    top: calc(50% - 12px);
+    left: 16px;
+    width: 24px;
+    height: 24px;
+}
+.input {
+    position: absolute;
+    top: 68px;
+    left: 24px;
+    border-radius: 16px;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid #3b3c4e;
+    box-sizing: border-box;
+    width: 403px;
+    height: 56px;
+    overflow: hidden;
+    font-size: 14px;
+    color: #8b8ca7;
+}
+.iconftr {
+    width: 100%;
+    position: relative;
+    border-radius: 100px;
+    height: 40px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.iconWrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.title1 {
+    flex: 1;
+    position: relative;
+    line-height: 24px;
+    font-weight: 600;
+}
+.mbListItemitemLeft {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 8px;
+}
+.paragraph {
+    position: relative;
+    line-height: 24px;
+}
+.mbListItemitemRight {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    text-align: right;
+    font-size: 14px;
+    color: #8b8ca7;
+}
+.mbListItemBasic {
+    width: 403px;
+    background-color: rgba(0, 0, 0, 0);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 16px;
+    box-sizing: border-box;
+    gap: 10px;
+}
+.iconeth {
+    width: 100%;
+    position: relative;
+    height: 40px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.listTokens {
+    position: absolute;
+    top: 132px;
+    left: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-size: 16px;
+}
+.selectAPair {
+    position: absolute;
+    top: 128px;
+    left: 37px;
+    width: 451px;
+    height: 564px;
+}
+.right {
+    width: 38%;
+    position: relative;
+    background-color: #23242f;
+    height: 900px;
+    text-align: left;
+    font-size: 18px;
+    color: #fff;
+    font-family: Poppins;
+}

@@ -1,0 +1,117 @@
+/* components/FAQ/index.module.css */
+
+.faqContainer {
+  background-color: #0a192f;
+  color: #ccd6f6;
+  min-height: 100vh;
+  padding: 50px 20px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 50rem;
+}
+
+.faqTitle {
+  font-size: 2.5rem;
+  color: #e6f1ff;
+  margin-bottom: 40px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.faqList {
+  width: 100%;
+  max-width: 768px;
+}
+
+.faqItem {
+  background-color: #112240;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  overflow: hidden;
+  transition: background-color 0.3s ease;
+}
+
+.faqQuestion {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 20px 25px;
+  background: none;
+  border: none;
+  color: #ccd6f6;
+  text-align: left;
+  font-size: 1.125rem; /* 18px */
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.faqQuestion:hover {
+  background-color: #233554;
+}
+
+.faqIcon {
+  fill: #64ffda;
+  transition: transform 0.3s ease;
+  flex-shrink: 0;
+  margin-left: 15px;
+}
+
+.faqIcon.open {
+  transform: rotate(180deg);
+}
+
+.faqAnswer {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease-out;
+  background-color: #0a192f;
+}
+
+.faqAnswer.open {
+  max-height: 300px; /* Adjust if your answers are longer */
+}
+
+.faqAnswerContent {
+  padding: 0px 25px 25px 25px;
+  color: #a8b2d1;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.faqAnswerContent p {
+  margin: 0 0 1em 0;
+  white-space: pre-line;
+}
+
+.faqAnswerContent p:last-child {
+  margin-bottom: 0;
+}
+
+.buttonfaq {
+  position: relative;
+  left: 20rem;
+  top: 3rem;
+}
+
+@media (max-width: 1024px) {
+  .buttonfaq {
+  position: relative;
+  left: 8rem;
+  top: 3rem;
+}
+}
+
+
+@media (max-width: 600px) {
+  .faqTitle {
+    font-size: 2rem;
+  }
+  .faqQuestion {
+    font-size: 1rem;
+    padding: 15px 20px;
+  }
+}
