@@ -1,5 +1,6 @@
 import { defaultWagmiConfig } from '@web3modal/wagmi/react/config';
 import { cookieStorage, createStorage } from 'wagmi';
+import type { Storage } from '@wagmi/core';
 import { bsc, bscTestnet } from 'wagmi/chains';
 
 export const projectId = process.env.NEXT_PUBLIC_PROJECT_ID as string | undefined;
@@ -30,5 +31,5 @@ export const config = defaultWagmiConfig({
   ssr: true,
   storage: createStorage({
     storage: cookieStorage
-  })
-}); 
+  }) as Storage
+});
